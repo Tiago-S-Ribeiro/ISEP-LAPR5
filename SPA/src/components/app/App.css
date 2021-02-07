@@ -1,0 +1,22 @@
+.logo {
+  float: left;
+  width: 150px;
+  height: 40px;
+  margin: 16px 24px 16px 0;
+  background-image: url('../../assets/Isep-logo.png');
+  background-size: cover;
+}
+
+.ant-row-rtl .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.site-layout-background {
+  background: #fff;
+  min-height: 90vh;     /*Screen Adjustment (View Height)*/
+}
+
+element.style {
+  min-height: 90vh;
+}

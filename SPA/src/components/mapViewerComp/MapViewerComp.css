@@ -1,0 +1,21 @@
+.mapContainer {
+  position: fixed;
+  width: 76%;
+  height: 75%;
+  margin: 100;
+}
+
+.sidebarStyle {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 12px;
+  background-color: #404040;
+  color: #ffffff;
+  z-index: 1 !important;
+  padding: 6px;
+  font-weight: bold;
+}
+
+.mapbox-missing-css { display: none; }
