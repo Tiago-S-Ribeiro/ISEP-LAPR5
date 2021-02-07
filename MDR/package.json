@@ -1,0 +1,47 @@
+{
+  "name": "it1-arqsi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "nyc": {
+    "all": true,
+    "include": [
+      "api/routes/*.js",
+      "api/middlewares/*.js",
+      "models/*.js"
+    ]
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "pm2-runtime start ecosystem.config.js --env production",
+    "local": "nodemon mainApp.js",
+    "coverage": "nyc --reporter=lcov --reported=text npm run test"
+  },
+  "keywords": [],
+  "author": "Grupo-67",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "handlebars": "^4.7.6",
+    "joi": "^17.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.13",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.17",
+    "nodemon": "^2.0.6",
+    "pm2": "^4.5.1",
+    "xml-js": "^1.6.11",
+    "xml2json": "^0.12.0"
+  },
+  "devDependencies": {
+    "@shelf/jest-mongodb": "^1.2.3",
+    "jest": "^26.6.3",
+    "nyc": "^15.1.0"
+  }
+}
