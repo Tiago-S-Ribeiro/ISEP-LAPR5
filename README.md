@@ -338,6 +338,8 @@ Paths Table Consult:
 
 ![3D Object](./Files/3D.png)
 
+For more details about the Map Viewer, check my [SGRAI Repository](https://github.com/Tiago-S-Ribeiro/ISEP-SGRAI), as this was the project of that unit course.
+
 ----------------
 
 # Glossary and Acronyms
