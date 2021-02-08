@@ -312,6 +312,32 @@ Following the registration, the client will receive the following e-mail:
 
 This was achieved with the use of [Handlebars](https://handlebarsjs.com/) and [Nodemailer](https://nodemailer.com/about/).
 
+----------
+
+Below is the line creation menu, the color picker picker was done by using [React Color Picker](https://casesandberg.github.io/react-color/):
+
+![Line Creation](./Files/Lines.png)
+
+Driver creation menu:
+
+![Driver Creation](./Files/Driver.png)
+
+Lines Table Consult: 
+
+![Lines](./Files/Lines2.png)
+
+Paths Table Consult: 
+
+![Paths](./Files/Paths.png)
+
+3D Map Viewer:
+
+![Map](./Files/Map.png)
+
+3D Map Model w/ Shadow:
+
+![3D Object](./Files/3D.png)
+
 ----------------
 
 # Glossary and Acronyms
@@ -324,3 +350,30 @@ This was achieved with the use of [Handlebars](https://handlebarsjs.com/) and [N
 * **Ad Hoc** - When necessary or needed
 
 -------------
+
+## References
+
+* [React Js](https://reactjs.org/)
+* [React Color Picker](https://casesandberg.github.io/react-color/) 
+* [Handlebars](https://handlebarsjs.com/)
+* [Nodemailer](https://nodemailer.com/about/)
+* [Ant Design: React Library](https://ant.design/)
+* [React Router](https://reactrouter.com/)
+* [MapboxGL Js](https://docs.mapbox.com/mapbox-gl-js/api/)
+* [Three.js](https://threejs.org/)
+* [Sketchfab: 3D Models](https://sketchfab.com/feed)
+* [npx create-react-app](https://github.com/facebook/create-react-app)
+* [Mongoose](https://www.npmjs.com/package/mongoose)
+* [MongoDB](https://www.mongodb.com/)
+* [Express](https://www.npmjs.com/package/express)
+* [JSON Web Token](https://www.npmjs.com/package/jsonwebtoken)
+* [JOI: Data Validator](https://www.npmjs.com/package/joi)
+* [Docker](https://www.docker.com/)
+* [Heroku](https://www.heroku.com/)
+* [PM2: Production Manager](https://pm2.keymetrics.io/)
+* [Threebox](https://github.com/peterqliu/threebox)
+* [Cypress](https://www.cypress.io/)
+* [Jest](https://jestjs.io/)
+* [Microsoft Azure](https://azure.microsoft.com/pt-pt/)
+* [XML-JSON](https://www.npmjs.com/package/xml-js)
+* [Axios](https://www.npmjs.com/package/axios)
